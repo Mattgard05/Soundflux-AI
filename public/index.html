@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Soundflux AI Mastering</title>
+</head>
+<body>
+  <h1>Upload Your Track for Mastering</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="track" accept="audio/*" required />
+  
+  <label for="style">Choose Mastering Style:</label>
+  <select name="style" id="style">
+    <option value="punchy">Loud & Punchy</option>
+    <option value="warm">Warm & Analog</option>
+    <option value="radio">Radio Ready</option>
+  </select>
+
+  <button type="submit">Upload & Master</button>
+</form>
+
+</body>
+</html>
+
